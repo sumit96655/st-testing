@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# PyTest
+.pytest_cache/
+
+# Reports
+reports/screenshots/
+reports/logs/
+reports/report.html
+reports/assets/
+
+# Performance
+performance/results/
+performance/html_report/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store

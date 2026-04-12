@@ -1,0 +1,8 @@
+{
+  "postal_code_boundary": [
+    {"code": "1234", "digits": 4, "valid": true},
+    {"code": "12345", "digits": 5, "valid": true},
+    {"code": "123456", "digits": 6, "valid": true},
+    {"code": "abcde", "digits": 5, "valid": false, "type": "non-numeric"}
+  ]
+}
