@@ -18,7 +18,8 @@ class ProductsPage(BasePage):
     INVENTORY_ITEM_PRICE = (By.CSS_SELECTOR, ".inventory_item_price")
     CART_BADGE = (By.CSS_SELECTOR, ".shopping_cart_badge")
     CART_LINK = (By.CSS_SELECTOR, ".shopping_cart_link")
-    BURGER_MENU = (By.ID, "react-burger-menu-btn")
+    # deliberately adding error - commenting the next line
+    # BURGER_MENU = (By.ID, "react-burger-menu-btn")
     LOGOUT_LINK = (By.ID, "logout_sidebar_link")
 
     # ── Actions ──────────────────────────────────────────────────────
